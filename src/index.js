@@ -1,9 +1,8 @@
 'use strict';
 
-const defaultOptions = {};
-
-function legoinoDeviceInformation(options) {
-    options = Object.assign({}, defaultOptions, options);
-}
-
-module.exports = legoinoDeviceInformation;
+module.exports = {
+  OpenBio: require('./devices/OpenBio'),
+  OpenSpectro: require('./devices/OpenSpectro'),
+  SimpleSpectro: require('./devices/SimpleSpectro'),
+  Solar2015: require('./devices/Solar2015')
+};

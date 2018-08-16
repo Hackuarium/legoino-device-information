@@ -1,9 +1,18 @@
 'use strict';
 
-const legoinoDeviceInformation = require('..');
+const info = require('..');
 
 describe('legoino-device-information test', () => {
-    it('Something to test', () => {
-        expect(legoinoDeviceInformation()).toBe(true);
-    });
+  it('OpenBio', () => {
+    expect(info.OpenBio).toMatchSnapshot();
+  });
+  it('OpenSpectro', () => {
+    expect(info.OpenSpectro).toMatchSnapshot();
+  });
+  it('SimpleSpectro', () => {
+    expect(info.SimpleSpectro).toMatchSnapshot();
+  });
+  it('Solar2015', () => {
+    expect(info.Solar2015).toMatchSnapshot();
+  });
 });
