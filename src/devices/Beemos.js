@@ -239,7 +239,7 @@ module.exports = {
       unit: '',
       writable: false
     },
-    
+
     {
       label: 'AA',
       name: 'Weight',
