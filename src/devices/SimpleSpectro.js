@@ -2,7 +2,7 @@
 
 module.exports = {
   name: 'Simple spectrophotometer',
-  type: 'SimpleSpectro',
+  kind: 'SimpleSpectro',
   numberParameters: 26,
   description: '',
   url: '',

@@ -2,7 +2,7 @@
 
 module.exports = {
   name: 'Solar decathlon 2015',
-  type: 'Solar',
+  kind: 'Solar',
   numberParameters: 4,
   numberLogParameters: 4,
   description: '',

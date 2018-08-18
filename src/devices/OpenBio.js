@@ -2,7 +2,7 @@
 
 module.exports = {
   name: 'Open bioreactor',
-  type: 'OpenBio',
+  kind: 'OpenBio',
   description: '',
   url: '',
   numberParameters: 52,

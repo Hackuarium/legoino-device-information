@@ -2,7 +2,7 @@
 
 module.exports = {
   name: 'Bee Monistoring System',
-  type: 'Beemos',
+  kind: 'Beemos',
   numberParameters: 26,
   description: '',
   url: '',

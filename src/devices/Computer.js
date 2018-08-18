@@ -2,7 +2,7 @@
 
 module.exports = {
   name: 'Computer mornitoring',
-  type: 'Computer',
+  kind: 'Computer',
   numberParameters: 16,
   numberLogParameters: 16,
   description: '',

@@ -2,7 +2,7 @@
 
 module.exports = {
   name: 'Open spectrophotometer',
-  type: 'OpenSpectro',
+  kind: 'OpenSpectro',
   numberParameters: 26,
   description: '',
   url: '',
