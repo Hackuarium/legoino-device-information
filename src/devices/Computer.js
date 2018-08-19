@@ -12,7 +12,7 @@ module.exports = {
       label: 'A',
       name: 'cpuTemperature',
       description: '',
-      factor: 100,
+      factor: 1,
       unit: '°C',
       writable: false
     },
