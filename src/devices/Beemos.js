@@ -268,7 +268,8 @@ module.exports = {
 
     {
       label: 'AA',
-      name: 'Weight',
+      variable: 'weightInternalUnit',
+      name: 'Weight internal unit',
       description: 'Weight in internal unit',
       factor: 1,
       unit: '',
@@ -277,6 +278,7 @@ module.exports = {
 
     {
       label: 'AB',
+      variable: 'weightOffset',
       name: 'Weight offset',
       description: 'Offset to convert weight from internal unit',
       factor: 1,
@@ -286,6 +288,7 @@ module.exports = {
 
     {
       label: 'AC',
+      variable: 'weightFactor',
       name: 'Weight factor',
       description: 'Factor to convert the weight from internal unit',
       factor: 1,
@@ -295,6 +298,7 @@ module.exports = {
 
     {
       label: 'AD',
+      variable: 'charging',
       name: 'Charging',
       description: 'Indication showing if the battery is charging',
       factor: 1,
@@ -304,13 +308,12 @@ module.exports = {
 
     {
       label: 'AE',
+      variable: 'loggingInterval',
       name: 'Logging interval',
       description: 'Interval in seconds between logs',
       factor: 1,
       unit: 's',
       writable: true
     },
-
-
   ]
 };
