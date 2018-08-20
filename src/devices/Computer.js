@@ -10,7 +10,8 @@ module.exports = {
   parameters: [
     {
       label: 'A',
-      name: 'cpuTemperature',
+      variable: 'cpuTemperature',
+      name: 'CPU Temperature',
       description: '',
       factor: 1,
       unit: '°C',
@@ -19,7 +20,8 @@ module.exports = {
 
     {
       label: 'B',
-      name: 'memFree',
+      variable: 'memFree',
+      name: 'Free memory',
       description: 'Free memory in percent',
       factor: 1,
       unit: '%',
@@ -28,7 +30,8 @@ module.exports = {
 
     {
       label: 'C',
-      name: 'swapFree',
+      variable: 'swapFree',
+      name: 'Free swap',
       description: 'Free swap in percent',
       factor: 1,
       unit: '%',
@@ -37,7 +40,8 @@ module.exports = {
 
     {
       label: 'D',
-      name: 'fsRead',
+      variable: 'fsRead',
+      name: 'FS Read',
       description: 'File system read in kb',
       factor: 1,
       unit: 'kb',
@@ -46,7 +50,8 @@ module.exports = {
 
     {
       label: 'E',
-      name: 'fsWrite',
+      variable: 'fsWrite',
+      name: 'FS Write',
       description: 'File system read in kb',
       factor: 1,
       unit: 'kb',
@@ -55,7 +60,8 @@ module.exports = {
 
     {
       label: 'F',
-      name: 'networkRead',
+      variable: 'networkRead',
+      name: 'Network Read',
       description: 'File system read in kb',
       factor: 1,
       unit: 'kb',
@@ -64,7 +70,8 @@ module.exports = {
 
     {
       label: 'G',
-      name: 'networkWrite',
+      variable: 'networkWrite',
+      name: 'Network Write',
       description: 'File system read in kb',
       factor: 1,
       unit: 'kb',
@@ -73,7 +80,8 @@ module.exports = {
 
     {
       label: 'H',
-      name: 'load',
+      variable: 'load',
+      name: 'Load',
       description: 'Total load',
       factor: 1,
       unit: '%',
@@ -82,7 +90,8 @@ module.exports = {
 
     {
       label: 'I',
-      name: 'loadUser',
+      variable: 'userLoad',
+      name: 'User load',
       description: 'Load from user',
       factor: 1,
       unit: '%',
@@ -91,7 +100,8 @@ module.exports = {
 
     {
       label: 'J',
-      name: 'loadSystem',
+      variable: 'systemLoad',
+      name: 'System load',
       description: 'Load from system',
       factor: 1,
       unit: '%',
@@ -100,7 +110,8 @@ module.exports = {
 
     {
       label: 'K',
-      name: 'loadNice',
+      variable: 'niceLoad',
+      name: 'Nice load',
       description: 'Load for Nice',
       factor: 1,
       unit: '%',
@@ -109,7 +120,8 @@ module.exports = {
 
     {
       label: 'L',
-      name: 'loadIdle',
+      variable: 'idleLoad',
+      name: 'Idle load',
       description: 'Idle percent of time',
       factor: 1,
       unit: '%',
@@ -118,7 +130,8 @@ module.exports = {
 
     {
       label: 'M',
-      name: 'loadIrq',
+      variable: 'irqLoad',
+      name: 'IRQ load',
       description: 'Load due to IRQ',
       factor: 1,
       unit: '%',
@@ -127,7 +140,8 @@ module.exports = {
 
     {
       label: 'N',
-      name: 'fsMinUsed',
+      variable: 'fsMinimalUse',
+      name: 'FS minimal use',
       description: 'Minimal percent spaced used in a filesystem',
       factor: 1,
       unit: '%',
@@ -135,7 +149,8 @@ module.exports = {
     },
     {
       label: 'O',
-      name: 'fsMaxUsed',
+      variable: 'fsMaximalUse',
+      name: 'FS maximal use',
       description: 'Maximal percent spaced used in a filesystem',
       factor: 1,
       unit: '%',
