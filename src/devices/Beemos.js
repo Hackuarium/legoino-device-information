@@ -42,7 +42,7 @@ module.exports = {
       variable: 'pressure',
       name: 'Pressure',
       description: 'Press',
-      factor: 1,
+      factor: 10,
       unit: 'mbar',
       writable: false
     },
