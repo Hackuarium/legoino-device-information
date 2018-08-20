@@ -97,6 +97,7 @@ Object {
       "name": "Change value of B",
     },
   ],
+  "kind": "OpenBio",
   "name": "Open bioreactor",
   "numberLogParameters": 26,
   "numberParameters": 52,
@@ -255,7 +256,6 @@ Object {
       "writable": true,
     },
   ],
-  "type": "OpenBio",
   "url": "",
 }
 `;
@@ -263,6 +263,7 @@ Object {
 exports[`legoino-device-information test OpenSpectro 1`] = `
 Object {
   "description": "",
+  "kind": "OpenSpectro",
   "name": "Open spectrophotometer",
   "numberParameters": 26,
   "parameters": Array [
@@ -405,7 +406,6 @@ Object {
       "writable": false,
     },
   ],
-  "type": "OpenSpectro",
   "url": "",
 }
 `;
@@ -413,6 +413,7 @@ Object {
 exports[`legoino-device-information test SimpleSpectro 1`] = `
 Object {
   "description": "",
+  "kind": "SimpleSpectro",
   "name": "Simple spectrophotometer",
   "numberParameters": 26,
   "parameters": Array [
@@ -601,7 +602,6 @@ Object {
       "writable": true,
     },
   ],
-  "type": "SimpleSpectro",
   "url": "",
 }
 `;
@@ -609,6 +609,7 @@ Object {
 exports[`legoino-device-information test Solar2015 1`] = `
 Object {
   "description": "",
+  "kind": "Solar",
   "name": "Solar decathlon 2015",
   "numberLogParameters": 4,
   "numberParameters": 4,
@@ -646,7 +647,6 @@ Object {
       "writable": false,
     },
   ],
-  "type": "Solar",
   "url": "",
 }
 `;
