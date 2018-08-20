@@ -4,11 +4,12 @@ module.exports = {
   name: 'Bee Monistoring System',
   kind: 'Beemos',
   numberParameters: 26,
-  description: '',
+  description: 'Bee Monistoring System data result',
   url: '',
   parameters: [
     {
       label: 'A',
+      variable: 'externalTemperature',
       name: 'Ext temperature',
       description: 'External temperature',
       factor: 100,
@@ -18,6 +19,7 @@ module.exports = {
 
     {
       label: 'B',
+      variable: 'externalHumidity',
       name: 'Ext humidity',
       description: 'External humidity',
       factor: 100,
@@ -27,6 +29,7 @@ module.exports = {
 
     {
       label: 'C',
+      variable: 'luminosity',
       name: 'Luminosity',
       description: 'Luminosity (Arbitrary unit)',
       factor: 10.24,
@@ -36,6 +39,7 @@ module.exports = {
 
     {
       label: 'D',
+      variable: 'pressure',
       name: 'Pressure',
       description: 'Press',
       factor: 1,
@@ -45,6 +49,7 @@ module.exports = {
 
     {
       label: 'E',
+      variable: 'internalTemperature',
       name: 'Int temperature',
       description: 'Internal temperature',
       factor: 100,
@@ -54,6 +59,7 @@ module.exports = {
 
     {
       label: 'F',
+      variable: 'internalHumidity',
       name: 'Int humidity',
       description: 'Internal humidity',
       factor: 100,
@@ -63,6 +69,7 @@ module.exports = {
 
     {
       label: 'G',
+      variable: 'internalTemperatureA',
       name: 'Int temperature A',
       description: 'Internal temperature A',
       factor: 100,
@@ -71,6 +78,7 @@ module.exports = {
     },
     {
       label: 'H',
+      variable: 'internalTemperatureB',
       name: 'Int temperature B',
       description: 'Internal temperature B',
       factor: 100,
@@ -80,6 +88,7 @@ module.exports = {
 
     {
       label: 'I',
+      variable: 'weight',
       name: 'Weight',
       description: 'Weight',
       factor: 100,
@@ -89,6 +98,7 @@ module.exports = {
 
     {
       label: 'J',
+      variable: 'battery',
       name: 'Battery',
       description: 'Battery voltage',
       factor: 100,
@@ -98,6 +108,7 @@ module.exports = {
 
     {
       label: 'K',
+      variable: 'gate1In',
       name: 'Gate 1 IN',
       description: 'Number of input on gate 1',
       factor: 1,
@@ -107,6 +118,7 @@ module.exports = {
 
     {
       label: 'L',
+      variable: 'gate1Out',
       name: 'Gate 1 OUT',
       description: 'Number of output on gate 1',
       factor: 1,
@@ -116,6 +128,7 @@ module.exports = {
 
     {
       label: 'M',
+      variable: 'gate2In',
       name: 'Gate 2 IN',
       description: 'Number of input on gate 2',
       factor: 1,
@@ -125,6 +138,7 @@ module.exports = {
 
     {
       label: 'N',
+      variable: 'gate2Out',
       name: 'Gate 2 OUT',
       description: 'Number of output on gate 2',
       factor: 1,
@@ -134,6 +148,7 @@ module.exports = {
 
     {
       label: 'O',
+      variable: 'gate3In',
       name: 'Gate 3 IN',
       description: 'Number of input on gate 3',
       factor: 1,
@@ -143,6 +158,7 @@ module.exports = {
 
     {
       label: 'P',
+      variable: 'gate3Out',
       name: 'Gate 3 OUT',
       description: 'Number of output on gate 3',
       factor: 1,
@@ -152,6 +168,7 @@ module.exports = {
 
     {
       label: 'Q',
+      variable: 'gate4In',
       name: 'Gate 4 IN',
       description: 'Number of input on gate 4',
       factor: 1,
@@ -161,6 +178,7 @@ module.exports = {
 
     {
       label: 'R',
+      variable: 'gate4Out',
       name: 'Gate 4 OUT',
       description: 'Number of output on gate 4',
       factor: 1,
@@ -170,6 +188,7 @@ module.exports = {
 
     {
       label: 'S',
+      variable: 'gate5In',
       name: 'Gate 5 IN',
       description: 'Number of input on gate 5',
       factor: 1,
@@ -179,6 +198,7 @@ module.exports = {
 
     {
       label: 'T',
+      variable: 'gate5Out',
       name: 'Gate 5 OUT',
       description: 'Number of output on gate 5',
       factor: 1,
@@ -188,6 +208,7 @@ module.exports = {
 
     {
       label: 'U',
+      variable: 'gate6In',
       name: 'Gate 6 IN',
       description: 'Number of input on gate 6',
       factor: 1,
@@ -197,6 +218,7 @@ module.exports = {
 
     {
       label: 'V',
+      variable: 'gate6Out',
       name: 'Gate 6 OUT',
       description: 'Number of output on gate 6',
       factor: 1,
@@ -206,6 +228,7 @@ module.exports = {
 
     {
       label: 'W',
+      variable: 'gate7In',
       name: 'Gate 7 IN',
       description: 'Number of input on gate 7',
       factor: 1,
@@ -215,6 +238,7 @@ module.exports = {
 
     {
       label: 'X',
+      variable: 'gate7Out',
       name: 'Gate 7 OUT',
       description: 'Number of output on gate 7',
       factor: 1,
@@ -224,6 +248,7 @@ module.exports = {
 
     {
       label: 'Y',
+      variable: 'gate8In',
       name: 'Gate 8 IN',
       description: 'Number of input on gate 8',
       factor: 1,
@@ -233,6 +258,7 @@ module.exports = {
 
     {
       label: 'Z',
+      variable: 'gate8Out',
       name: 'Gate 8 OUT',
       description: 'Number of output on gate 8',
       factor: 1,
