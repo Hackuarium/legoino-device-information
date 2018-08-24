@@ -4,6 +4,7 @@ module.exports = {
   name: 'Open spectrophotometer',
   kind: 'OpenSpectro',
   numberParameters: 26,
+  id: 'S',
   description: '',
   url: '',
   parameters: [
@@ -19,7 +20,8 @@ module.exports = {
     {
       label: 'B',
       name: 'Green point',
-      description: 'which point of the linear detector is the maximum for green',
+      description:
+        'which point of the linear detector is the maximum for green',
       factor: 1,
       unit: 'pixel#',
       writable: false
@@ -34,86 +36,127 @@ module.exports = {
       writable: false
     },
 
-
     {
-      label: 'D', name: 'Compression', description: '0 means no compression, can be set',
-      factor: 1, unit: '',
+      label: 'D',
+      name: 'Compression',
+      description: '0 means no compression, can be set',
+      factor: 1,
+      unit: '',
       writable: true
     },
     {
-      label: 'E', name: 'R-Intensity', description: 'Red led intensity (0 to 255)',
-      factor: 1, unit: '',
+      label: 'E',
+      name: 'R-Intensity',
+      description: 'Red led intensity (0 to 255)',
+      factor: 1,
+      unit: '',
       writable: false
     },
 
     {
-      label: 'F', name: 'G-Intensity', description: 'Green led intensity (0 to 255)',
-      factor: 1, unit: '',
+      label: 'F',
+      name: 'G-Intensity',
+      description: 'Green led intensity (0 to 255)',
+      factor: 1,
+      unit: '',
       writable: false
     },
     {
-      label: 'G', name: 'B-Intensity', description: 'Blue led intensity (0 to 255)',
-      factor: 1, unit: '',
+      label: 'G',
+      name: 'B-Intensity',
+      description: 'Blue led intensity (0 to 255)',
+      factor: 1,
+      unit: '',
       writable: false
     },
 
     {
-      label: 'H', name: 'Scan#', description: 'Number of scans (maximum 64)',
-      factor: 1, unit: '',
-      min: 1, max: 64,
+      label: 'H',
+      name: 'Scan#',
+      description: 'Number of scans (maximum 64)',
+      factor: 1,
+      unit: '',
+      min: 1,
+      max: 64,
       writable: true
     },
 
     {
-      label: 'I', name: 'DelayExp', description: 'Delay between experiments in seconds',
-      factor: 1, unit: 's',
+      label: 'I',
+      name: 'DelayExp',
+      description: 'Delay between experiments in seconds',
+      factor: 1,
+      unit: 's',
       writable: false
     },
 
     {
-      label: 'J', name: 'Acq Time', description: 'Accumulation time in ms(in ms, good value=30)',
-      factor: 1, unit: 'ms',
+      label: 'J',
+      name: 'Acq Time',
+      description: 'Accumulation time in ms(in ms, good value=30)',
+      factor: 1,
+      unit: 'ms',
       writable: true
     },
 
     {
-      label: 'K', name: 'lambda-R', description: 'Red maximum wavelength (nm)',
-      factor: 1, unit: 'nm',
+      label: 'K',
+      name: 'lambda-R',
+      description: 'Red maximum wavelength (nm)',
+      factor: 1,
+      unit: 'nm',
       writable: false
     },
 
     {
-      label: 'L', name: 'lambda-G', description: 'Green maximum wavelength (nm)',
-      factor: 1, unit: 'nm',
+      label: 'L',
+      name: 'lambda-G',
+      description: 'Green maximum wavelength (nm)',
+      factor: 1,
+      unit: 'nm',
       writable: false
     },
 
     {
-      label: 'M', name: 'lambda-M', description: 'Blue maximum wavelength (nm)',
-      factor: 1, unit: 'nm',
+      label: 'M',
+      name: 'lambda-M',
+      description: 'Blue maximum wavelength (nm)',
+      factor: 1,
+      unit: 'nm',
       writable: false
     },
 
     {
-      label: 'U', name: 'red test', description: 'Set intensity of red led for test (0 -> 255)',
-      factor: 1, unit: '',
+      label: 'U',
+      name: 'red test',
+      description: 'Set intensity of red led for test (0 -> 255)',
+      factor: 1,
+      unit: '',
       writable: false
     },
     {
-      label: 'V', name: 'green test', description: 'Set intensity of green led for test (0 -> 255)',
-      factor: 1, unit: '',
+      label: 'V',
+      name: 'green test',
+      description: 'Set intensity of green led for test (0 -> 255)',
+      factor: 1,
+      unit: '',
       writable: false
     },
     {
-      label: 'W', name: 'blue test', description: 'Set intensity of blue led for test (0 -> 255)',
-      factor: 1, unit: '',
+      label: 'W',
+      name: 'blue test',
+      description: 'Set intensity of blue led for test (0 -> 255)',
+      factor: 1,
+      unit: '',
       writable: false
     },
     {
-      label: 'X', name: 'white test', description: 'Set intensity of white led for test (0 -> 255)',
-      factor: 1, unit: '',
+      label: 'X',
+      name: 'white test',
+      description: 'Set intensity of white led for test (0 -> 255)',
+      factor: 1,
+      unit: '',
       writable: false
-    },
-
+    }
   ]
 };

@@ -5,6 +5,7 @@ module.exports = {
   kind: 'Solar',
   numberParameters: 4,
   numberLogParameters: 4,
+  id: '#',
   description: '',
   url: '',
   parameters: [

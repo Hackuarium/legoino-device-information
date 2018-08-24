@@ -4,6 +4,7 @@ module.exports = {
   name: 'Bee Monistoring System',
   kind: 'Beemos',
   numberParameters: 26,
+  id: 'B',
   description: 'Bee Monistoring System data result',
   url: '',
   parameters: [
@@ -314,6 +315,6 @@ module.exports = {
       factor: 1,
       unit: 's',
       writable: true
-    },
+    }
   ]
 };

@@ -5,6 +5,7 @@ module.exports = {
   kind: 'SimpleSpectro',
   numberParameters: 26,
   description: '',
+  id: 'T',
   url: '',
   parameters: [
     {
