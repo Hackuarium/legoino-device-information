@@ -3,7 +3,8 @@
 module.exports = {
   name: 'Bee Monistoring System',
   kind: 'Beemos',
-  numberParameters: 26,
+  numberParameters: 32,
+  numberLogParameters: 26,
   id: 'B',
   description: 'Bee Monistoring System data result',
   url: '',
