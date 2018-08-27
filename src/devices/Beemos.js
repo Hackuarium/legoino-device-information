@@ -103,7 +103,7 @@ module.exports = {
       variable: 'battery',
       name: 'Battery',
       description: 'Battery voltage',
-      factor: 100,
+      factor: 1000,
       unit: 'V',
       writable: false
     },
