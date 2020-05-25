@@ -12,14 +12,13 @@ Device information for all our arduino derived projects
 
 `$ npm install legoino-device-information`
 
-## [API Documentation](https://cheminfo-js.github.io/legoino-device-information/)
+## [API Documentation](https://hackuarium.github.io/legoino-device-information/)
 
 ## Example
 
 ```js
 const legoinoDeviceInformation = require('legoino-device-information');
 ```
-
 
 ## License
 

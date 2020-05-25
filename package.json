@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cheminfo-js/legoino-device-information.git"
+    "url": "https://github.com/Hackuarium/legoino-device-information.git"
   },
   "keywords": [],
   "author": "Luc Patiny <luc@patiny.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cheminfo-js/legoino-device-information/issues"
+    "url": "https://github.com/Hackuarium/legoino-device-information/issues"
   },
-  "homepage": "https://github.com/cheminfo-js/legoino-device-information#readme",
+  "homepage": "https://github.com/Hackuarium/legoino-device-information#readme",
   "jest": {
     "testEnvironment": "node"
   },
