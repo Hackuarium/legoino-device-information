@@ -1,3 +1,12 @@
+# [0.1.0](https://github.com/Hackuarium/legoino-device-information/compare/v0.0.9...v0.1.0) (2020-05-25)
+
+
+### Features
+
+* add OpenBio variable parameter ([fc352b6](https://github.com/Hackuarium/legoino-device-information/commit/fc352b6d83b3a4cac83b4c1ab3ffd3e1d10c5445))
+
+
+
 <a name="0.0.9"></a>
 ## [0.0.9](https://github.com/cheminfo-js/legoino-device-information/compare/v0.0.8...v0.0.9) (2018-08-27)
 
