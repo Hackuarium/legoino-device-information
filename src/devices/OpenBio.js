@@ -11,6 +11,7 @@ module.exports = {
   parameters: [
     {
       label: 'A',
+      variable: 'liquidTemp',
       name: 'T° LIQ',
       description: 'Temperature of the bioreactor solution',
       factor: 100,
@@ -20,6 +21,7 @@ module.exports = {
 
     {
       label: 'B',
+      variable: 'pcbTemp',
       name: 'T° PCB',
       description: 'Temperature of the bioreactor circuit',
       factor: 100,
@@ -29,6 +31,7 @@ module.exports = {
 
     {
       label: 'C',
+      variable: 'pidTemp',
       name: 'Pid',
       description: 'PID absolute value',
       factor: 1,
@@ -38,6 +41,7 @@ module.exports = {
 
     {
       label: 'D',
+      variable: 'targetTemp',
       name: 'T° target',
       description: 'Target temperature',
       factor: 100,
@@ -47,6 +51,7 @@ module.exports = {
 
     {
       label: 'E',
+      variable: 'weight',
       name: 'Weight',
       description: 'Weight of the bioreactor tank, in internal value',
       factor: 1,
@@ -56,6 +61,7 @@ module.exports = {
 
     {
       label: 'F',
+      variable: 'grWeight',
       name: 'Weight (g)',
       description: 'Weight of the bioreactor tank, in gr if calibrated',
       factor: 1,
@@ -65,6 +71,7 @@ module.exports = {
 
     {
       label: 'G',
+      variable: 'weightSinceLast',
       name: 'Weight since last event',
       description: 'Time in min since last weight event',
       factor: 1,
@@ -74,6 +81,7 @@ module.exports = {
 
     {
       label: 'H',
+      variable: 'minWeight',
       name: 'Weight min',
       description: 'Weight min in internal unit',
       factor: 1,
@@ -83,6 +91,7 @@ module.exports = {
 
     {
       label: 'I',
+      variable: 'maxWeight',
       name: 'Weight max',
       description: 'Weight max in internal unit',
       factor: 1,
@@ -92,6 +101,7 @@ module.exports = {
 
     {
       label: 'Y',
+      variable: 'error',
       name: 'Error',
       unit: '',
       factor: 1,
@@ -103,6 +113,7 @@ module.exports = {
 
     {
       label: 'Z',
+      variable: 'status',
       name: 'Status',
       description: `Status of the Bioreactor, the bits of this integer code
         for the state of specific elements of the reactor (eg. motor ON/OFF, PUMP ON/OFF etc.).
@@ -115,6 +126,7 @@ module.exports = {
 
     {
       label: 'AA',
+      variable: 'stepperSpeed',
       name: 'Stepper speed',
       description: '',
       factor: 1,
@@ -124,6 +136,7 @@ module.exports = {
 
     {
       label: 'AB',
+      variable: 'stepperSteps',
       name: 'Stepper steps',
       description: 'Number of step before changing diretion. 1 tour = 200 step',
       factor: 1,
@@ -133,6 +146,7 @@ module.exports = {
 
     {
       label: 'AF',
+      variable: 'sedTime',
       name: 'Sedimentation Time',
       description:
         'Sedimentation time in min after Semi-batch operation,' +
@@ -146,6 +160,7 @@ module.exports = {
 
     {
       label: 'AG',
+      variable: 'filledTime',
       name: 'Filled Time',
       description:
         'Filled time in min after Semi-batch operation,' +
@@ -160,6 +175,7 @@ module.exports = {
 
     {
       label: 'AH',
+      variable: 'weightFactor',
       name: 'Weight factor',
       description: 'Factor allowing to convert the internal weight value to g',
       factor: 1,
@@ -169,6 +185,7 @@ module.exports = {
 
     {
       label: 'AI',
+      variable: 'weightOffset',
       name: 'Weight offset',
       description: '',
       factor: 1,
@@ -178,6 +195,7 @@ module.exports = {
 
     {
       label: 'AZ',
+      variable: 'enable',
       name: 'Enable',
       description: 'pid - food - stepper : ex. 1: only stepper',
       factor: 1,
