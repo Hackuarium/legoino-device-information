@@ -155,6 +155,9 @@ module.exports = {
       factor: 1,
       unit: '%',
       writable: false
-    }
+    },
+    {
+      label: 'P'
+    },
   ]
 };

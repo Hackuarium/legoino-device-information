@@ -185,6 +185,51 @@ Object {
       "writable": false,
     },
     Object {
+      "label": "J",
+    },
+    Object {
+      "label": "K",
+    },
+    Object {
+      "label": "L",
+    },
+    Object {
+      "label": "M",
+    },
+    Object {
+      "label": "N",
+    },
+    Object {
+      "label": "O",
+    },
+    Object {
+      "label": "P",
+    },
+    Object {
+      "label": "Q",
+    },
+    Object {
+      "label": "R",
+    },
+    Object {
+      "label": "S",
+    },
+    Object {
+      "label": "T",
+    },
+    Object {
+      "label": "U",
+    },
+    Object {
+      "label": "V",
+    },
+    Object {
+      "label": "W",
+    },
+    Object {
+      "label": "X",
+    },
+    Object {
       "description": "
             bit 0: pcb probe, 1: liquid probe, 2: pcb temperature,
             3: liquid temperature, 4: target temp. range, 5: weight range",
@@ -424,6 +469,12 @@ Object {
       "name": "white test",
       "unit": "",
       "writable": false,
+    },
+    Object {
+      "label": "Y",
+    },
+    Object {
+      "label": "Z",
     },
   ],
   "url": "",

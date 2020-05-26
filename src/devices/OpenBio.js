@@ -100,6 +100,66 @@ module.exports = {
     },
 
     {
+      label: 'J'
+    },
+
+    {
+      label: 'K'
+    },
+
+    {
+      label: 'L'
+    },
+
+    {
+      label: 'M'
+    },
+
+    {
+      label: 'N'
+    },
+
+    {
+      label: 'O'
+    },
+
+    {
+      label: 'P'
+    },
+
+    {
+      label: 'Q'
+    },
+
+    {
+      label: 'R'
+    },
+
+    {
+      label: 'S'
+    },
+
+    {
+      label: 'T'
+    },
+
+    {
+      label: 'U'
+    },
+
+    {
+      label: 'V'
+    },
+
+    {
+      label: 'W'
+    },
+
+    {
+      label: 'X'
+    },
+
+    {
       label: 'Y',
       variable: 'error',
       name: 'Error',
