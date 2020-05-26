@@ -1,3 +1,12 @@
+## [0.1.1](https://github.com/Hackuarium/legoino-device-information/compare/v0.1.0...v0.1.1) (2020-05-26)
+
+
+### Bug Fixes
+
+* add unused parameters labels to array ([d3ae21f](https://github.com/Hackuarium/legoino-device-information/commit/d3ae21f669101f1efd61f2076afaf4053b9b2142))
+
+
+
 # [0.1.0](https://github.com/Hackuarium/legoino-device-information/compare/v0.0.9...v0.1.0) (2020-05-25)
 
 
