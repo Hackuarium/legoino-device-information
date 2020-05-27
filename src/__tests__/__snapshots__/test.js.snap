@@ -311,6 +311,54 @@ Object {
       "writable": false,
     },
     Object {
+      "label": "AJ",
+    },
+    Object {
+      "label": "AK",
+    },
+    Object {
+      "label": "AL",
+    },
+    Object {
+      "label": "AM",
+    },
+    Object {
+      "label": "AN",
+    },
+    Object {
+      "label": "AO",
+    },
+    Object {
+      "label": "AP",
+    },
+    Object {
+      "label": "AQ",
+    },
+    Object {
+      "label": "AR",
+    },
+    Object {
+      "label": "AS",
+    },
+    Object {
+      "label": "AT",
+    },
+    Object {
+      "label": "AU",
+    },
+    Object {
+      "label": "AV",
+    },
+    Object {
+      "label": "AW",
+    },
+    Object {
+      "label": "AX",
+    },
+    Object {
+      "label": "AY",
+    },
+    Object {
       "description": "pid - food - stepper : ex. 1: only stepper",
       "factor": 1,
       "label": "AZ",
