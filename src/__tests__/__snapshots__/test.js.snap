@@ -271,6 +271,15 @@ Object {
       "writable": true,
     },
     Object {
+      "label": "AC",
+    },
+    Object {
+      "label": "AD",
+    },
+    Object {
+      "label": "AE",
+    },
+    Object {
       "description": "Sedimentation time in min after Semi-batch operation,corresponds to the waiting time without stirring before emptying the reactor to the minimum level",
       "factor": 1,
       "label": "AF",

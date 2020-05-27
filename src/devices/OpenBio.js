@@ -205,6 +205,18 @@ module.exports = {
     },
 
     {
+      label: 'AC'
+    },
+
+    {
+      label: 'AD'
+    },
+
+    {
+      label: 'AE'
+    },
+
+    {
       label: 'AF',
       variable: 'sedTime',
       name: 'Sedimentation Time',
