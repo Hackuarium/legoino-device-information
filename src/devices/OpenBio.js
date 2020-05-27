@@ -254,6 +254,70 @@ module.exports = {
     },
 
     {
+      label: 'AJ'
+    },
+
+    {
+      label: 'AK'
+    },
+
+    {
+      label: 'AL'
+    },
+
+    {
+      label: 'AM'
+    },
+
+    {
+      label: 'AN'
+    },
+
+    {
+      label: 'AO'
+    },
+
+    {
+      label: 'AP'
+    },
+
+    {
+      label: 'AQ'
+    },
+
+    {
+      label: 'AR'
+    },
+
+    {
+      label: 'AS'
+    },
+
+    {
+      label: 'AT'
+    },
+
+    {
+      label: 'AU'
+    },
+
+    {
+      label: 'AV'
+    },
+
+    {
+      label: 'AW'
+    },
+
+    {
+      label: 'AX'
+    },
+
+    {
+      label: 'AY'
+    },
+
+    {
       label: 'AZ',
       variable: 'enable',
       name: 'Enable',
