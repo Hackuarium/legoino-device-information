@@ -71,8 +71,8 @@ module.exports = {
 
     {
       label: 'G',
-      variable: 'weightSinceLast',
-      name: 'Weight since last event',
+      variable: 'waitSinceLast',
+      name: 'Time since last event',
       description: 'Time in min since last weight event',
       factor: 1,
       unit: 'min',
