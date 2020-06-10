@@ -1,3 +1,12 @@
+## [0.1.4](https://github.com/Hackuarium/legoino-device-information/compare/v0.1.3...v0.1.4) (2020-06-10)
+
+
+### Bug Fixes
+
+* parameter G ([f423856](https://github.com/Hackuarium/legoino-device-information/commit/f423856d02c5c7ca5ace5f3a1a15d29f31e39dfd))
+
+
+
 ## [0.1.3](https://github.com/Hackuarium/legoino-device-information/compare/v0.1.2...v0.1.3) (2020-05-27)
 
 
