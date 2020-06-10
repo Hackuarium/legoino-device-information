@@ -161,9 +161,9 @@ Object {
       "description": "Time in min since last weight event",
       "factor": 1,
       "label": "G",
-      "name": "Weight since last event",
+      "name": "Time since last event",
       "unit": "min",
-      "variable": "weightSinceLast",
+      "variable": "waitSinceLast",
       "writable": false,
     },
     Object {
@@ -262,7 +262,7 @@ Object {
       "writable": true,
     },
     Object {
-      "description": "Number of step before changing diretion. 1 tour = 200 step",
+      "description": "Number of step before changing direction. 1 tour = 200 steps",
       "factor": 1,
       "label": "AB",
       "name": "Stepper steps",
@@ -271,7 +271,13 @@ Object {
       "writable": true,
     },
     Object {
+      "description": "Time to wait in (s) before between stirring periods",
+      "factor": 1,
       "label": "AC",
+      "name": "Stepper off delay",
+      "unit": "s",
+      "variable": "stepperOffDelay",
+      "writable": true,
     },
     Object {
       "label": "AD",
