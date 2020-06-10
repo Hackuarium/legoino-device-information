@@ -198,14 +198,20 @@ module.exports = {
       label: 'AB',
       variable: 'stepperSteps',
       name: 'Stepper steps',
-      description: 'Number of step before changing diretion. 1 tour = 200 step',
+      description: 'Number of step before changing direction. 1 tour = 200 steps',
       factor: 1,
       unit: '',
       writable: true
     },
 
     {
-      label: 'AC'
+      label: 'AC',
+      variable: 'stepperOffDelay',
+      name: 'Stepper off delay',
+      description: 'Time to wait in (s) before between stirring periods',
+      factor: 1,
+      unit: 's',
+      writable: true
     },
 
     {
