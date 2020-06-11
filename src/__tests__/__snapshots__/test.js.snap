@@ -234,6 +234,32 @@ Object {
             bit 0: pcb probe, 1: liquid probe, 2: pcb temperature,
             3: liquid temperature, 4: target temp. range, 5: weight range",
       "factor": 1,
+      "flags": Object {
+        "liquidProbe": Object {
+          "bit": 1,
+          "description": "Liquid temperature probe not responding",
+        },
+        "liquidTemperature": Object {
+          "bit": 3,
+          "description": "Liquid temperature out of range",
+        },
+        "pcbProbe": Object {
+          "bit": 0,
+          "description": "PCB temperature probe not responding",
+        },
+        "pcbTemperature": Object {
+          "bit": 2,
+          "description": "PCB temperature out of range",
+        },
+        "targetTemperature": Object {
+          "bit": 4,
+          "description": "Target temperature out of range",
+        },
+        "weight": Object {
+          "bit": 5,
+          "description": "Weight out of range",
+        },
+      },
       "label": "Y",
       "name": "Error",
       "unit": "",
@@ -246,6 +272,32 @@ Object {
         bits: 0: stepper, 1: weight, 2: pid, 7: sedimentation, 8: filling, 9: emptying
         ",
       "factor": 1,
+      "flags": Object {
+        "emptying": Object {
+          "bit": 9,
+          "description": "Emptying tank",
+        },
+        "filling": Object {
+          "bit": 8,
+          "description": "Filling tank",
+        },
+        "food": Object {
+          "bit": 1,
+          "description": "Food running",
+        },
+        "pid": Object {
+          "bit": 2,
+          "description": "PID running",
+        },
+        "sedimentation": Object {
+          "bit": 7,
+          "description": "Sedimentation running",
+        },
+        "stepper": Object {
+          "bit": 0,
+          "description": "Stepper running",
+        },
+      },
       "label": "Z",
       "name": "Status",
       "unit": "",
@@ -376,6 +428,20 @@ Object {
     Object {
       "description": "pid - food - stepper : ex. 1: only stepper",
       "factor": 1,
+      "flags": Object {
+        "food": Object {
+          "bit": 1,
+          "description": "Food control",
+        },
+        "pid": Object {
+          "bit": 2,
+          "description": "PID control",
+        },
+        "stepper": Object {
+          "bit": 0,
+          "description": "Stepper control",
+        },
+      },
       "label": "AZ",
       "name": "Enable",
       "unit": "",

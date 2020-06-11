@@ -170,12 +170,30 @@ module.exports = {
             3: liquid temperature, 4: target temp. range, 5: weight range`,
       writable: true,
       flags: {
-        0: 'PCB temperature probe error',
-        1: 'Liquid temperature probe error',
-        2: 'PCB temperature out of range',
-        3: 'Liquid temperature out of range',
-        4: 'Target temperature out of range',
-        5: 'Weight out of range',
+        pcbProbe: {
+          bit: 0,
+          description: 'PCB temperature probe not responding',
+        },
+        liquidProbe: {
+          bit: 1,
+          description: 'Liquid temperature probe not responding',
+        },
+        pcbTemperature: {
+          bit: 2,
+          description: 'PCB temperature out of range',
+        },
+        liquidTemperature: {
+          bit: 3,
+          description: 'Liquid temperature out of range',
+        },
+        targetTemperature: {
+          bit: 4,
+          description: 'Target temperature out of range',
+        },
+        weight: {
+          bit: 5,
+          description: 'Weight out of range',
+        },
       },
     },
 
@@ -193,13 +211,28 @@ module.exports = {
       flags: {
         stepper: {
           bit: 0,
-          description: 'Stepper control',
+          description: 'Stepper running',
         },
-        1: 'food',
-        2: 'pid',
-        7: 'sedimentation',
-        8: 'filling',
-        9: 'emptying',
+        food: {
+          bit: 1,
+          description: 'Food running',
+        },
+        pid: {
+          bit: 2,
+          description: 'PID running',
+        },
+        sedimentation: {
+          bit: 7,
+          description: 'Sedimentation running',
+        },
+        filling: {
+          bit: 8,
+          description: 'Filling tank',
+        },
+        emptying: {
+          bit: 9,
+          description: 'Emptying tank',
+        },
       },
     },
 
@@ -364,9 +397,18 @@ module.exports = {
       unit: '',
       writable: true,
       flags: {
-        0: 'stepper',
-        1: 'food',
-        2: 'pid',
+        stepper: {
+          bit: 0,
+          description: 'Stepper control',
+        },
+        food: {
+          bit: 1,
+          description: 'Food control',
+        },
+        pid: {
+          bit: 2,
+          description: 'PID control',
+        },
       },
     },
   ],
