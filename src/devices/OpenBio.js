@@ -16,7 +16,7 @@ module.exports = {
       description: 'Temperature of the bioreactor solution',
       factor: 100,
       unit: '°C',
-      writable: false
+      writable: false,
     },
 
     {
@@ -26,7 +26,7 @@ module.exports = {
       description: 'Temperature of the bioreactor circuit',
       factor: 100,
       unit: '°C',
-      writable: false
+      writable: false,
     },
 
     {
@@ -36,7 +36,7 @@ module.exports = {
       description: 'PID absolute value',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -46,7 +46,7 @@ module.exports = {
       description: 'Target temperature',
       factor: 100,
       unit: '°C',
-      writable: true
+      writable: true,
     },
 
     {
@@ -56,7 +56,7 @@ module.exports = {
       description: 'Weight of the bioreactor tank, in internal value',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -66,7 +66,7 @@ module.exports = {
       description: 'Weight of the bioreactor tank, in gr if calibrated',
       factor: 1,
       unit: 'g',
-      writable: false
+      writable: false,
     },
 
     {
@@ -76,7 +76,7 @@ module.exports = {
       description: 'Time in min since last weight event',
       factor: 1,
       unit: 'min',
-      writable: false
+      writable: false,
     },
 
     {
@@ -86,7 +86,7 @@ module.exports = {
       description: 'Weight min in internal unit',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -96,67 +96,67 @@ module.exports = {
       description: 'Weight max in internal unit',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
-      label: 'J'
+      label: 'J',
     },
 
     {
-      label: 'K'
+      label: 'K',
     },
 
     {
-      label: 'L'
+      label: 'L',
     },
 
     {
-      label: 'M'
+      label: 'M',
     },
 
     {
-      label: 'N'
+      label: 'N',
     },
 
     {
-      label: 'O'
+      label: 'O',
     },
 
     {
-      label: 'P'
+      label: 'P',
     },
 
     {
-      label: 'Q'
+      label: 'Q',
     },
 
     {
-      label: 'R'
+      label: 'R',
     },
 
     {
-      label: 'S'
+      label: 'S',
     },
 
     {
-      label: 'T'
+      label: 'T',
     },
 
     {
-      label: 'U'
+      label: 'U',
     },
 
     {
-      label: 'V'
+      label: 'V',
     },
 
     {
-      label: 'W'
+      label: 'W',
     },
 
     {
-      label: 'X'
+      label: 'X',
     },
 
     {
@@ -168,7 +168,15 @@ module.exports = {
       description: `
             bit 0: pcb probe, 1: liquid probe, 2: pcb temperature,
             3: liquid temperature, 4: target temp. range, 5: weight range`,
-      writable: true
+      writable: true,
+      flags: {
+        0: 'PCB temperature probe error',
+        1: 'Liquid temperature probe error',
+        2: 'PCB temperature out of range',
+        3: 'Liquid temperature out of range',
+        4: 'Target temperature out of range',
+        5: 'Weight out of range',
+      },
     },
 
     {
@@ -181,7 +189,18 @@ module.exports = {
         `,
       factor: 1,
       unit: '',
-      writable: true
+      writable: true,
+      flags: {
+        stepper: {
+          bit: 0,
+          description: 'Stepper control',
+        },
+        1: 'food',
+        2: 'pid',
+        7: 'sedimentation',
+        8: 'filling',
+        9: 'emptying',
+      },
     },
 
     {
@@ -191,17 +210,18 @@ module.exports = {
       description: '',
       factor: 1,
       unit: 'RPM',
-      writable: true
+      writable: true,
     },
 
     {
       label: 'AB',
       variable: 'stepperSteps',
       name: 'Stepper steps',
-      description: 'Number of step before changing direction. 1 tour = 200 steps',
+      description:
+        'Number of step before changing direction. 1 tour = 200 steps',
       factor: 1,
       unit: '',
-      writable: true
+      writable: true,
     },
 
     {
@@ -211,15 +231,15 @@ module.exports = {
       description: 'Time to wait in (s) before between stirring periods',
       factor: 1,
       unit: 's',
-      writable: true
+      writable: true,
     },
 
     {
-      label: 'AD'
+      label: 'AD',
     },
 
     {
-      label: 'AE'
+      label: 'AE',
     },
 
     {
@@ -233,7 +253,7 @@ module.exports = {
       max: 32767,
       factor: 1,
       unit: 'min',
-      writable: true
+      writable: true,
     },
 
     {
@@ -248,7 +268,7 @@ module.exports = {
       max: 32767,
       factor: 1,
       unit: 'min',
-      writable: true
+      writable: true,
     },
 
     {
@@ -258,7 +278,7 @@ module.exports = {
       description: 'Factor allowing to convert the internal weight value to g',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -268,71 +288,71 @@ module.exports = {
       description: '',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
-      label: 'AJ'
+      label: 'AJ',
     },
 
     {
-      label: 'AK'
+      label: 'AK',
     },
 
     {
-      label: 'AL'
+      label: 'AL',
     },
 
     {
-      label: 'AM'
+      label: 'AM',
     },
 
     {
-      label: 'AN'
+      label: 'AN',
     },
 
     {
-      label: 'AO'
+      label: 'AO',
     },
 
     {
-      label: 'AP'
+      label: 'AP',
     },
 
     {
-      label: 'AQ'
+      label: 'AQ',
     },
 
     {
-      label: 'AR'
+      label: 'AR',
     },
 
     {
-      label: 'AS'
+      label: 'AS',
     },
 
     {
-      label: 'AT'
+      label: 'AT',
     },
 
     {
-      label: 'AU'
+      label: 'AU',
     },
 
     {
-      label: 'AV'
+      label: 'AV',
     },
 
     {
-      label: 'AW'
+      label: 'AW',
     },
 
     {
-      label: 'AX'
+      label: 'AX',
     },
 
     {
-      label: 'AY'
+      label: 'AY',
     },
 
     {
@@ -342,19 +362,24 @@ module.exports = {
       description: 'pid - food - stepper : ex. 1: only stepper',
       factor: 1,
       unit: '',
-      writable: true
-    }
+      writable: true,
+      flags: {
+        0: 'stepper',
+        1: 'food',
+        2: 'pid',
+      },
+    },
   ],
   events: [
     {
       id: 1,
       name: 'Arduino boot',
-      description: ''
+      description: '',
     },
     {
       id: 2,
       name: 'Set safe mode',
-      description: ''
+      description: '',
     },
     {
       id: 3,
@@ -367,8 +392,8 @@ module.exports = {
         2: 'pid',
         7: 'sedimentation',
         8: 'filling',
-        9: 'emptying'
-      }
+        9: 'emptying',
+      },
     },
     {
       id: 4,
@@ -381,8 +406,8 @@ module.exports = {
         2: 'pid',
         7: 'sedimentation',
         8: 'filling',
-        9: 'emptying'
-      }
+        9: 'emptying',
+      },
     },
     {
       id: 6,
@@ -395,8 +420,8 @@ module.exports = {
         2: 'pcb temperature range',
         3: 'liquid temperature range',
         4: 'target temperature range',
-        5: 'weight range'
-      }
+        5: 'weight range',
+      },
     },
     {
       id: 7,
@@ -409,38 +434,38 @@ module.exports = {
         2: 'pcb temperature range',
         3: 'liquid temperature range',
         4: 'target temperature range',
-        5: 'weight range'
-      }
+        5: 'weight range',
+      },
     },
     {
       id: 20,
       name: 'Rotation start',
-      description: ''
+      description: '',
     },
     {
       id: 21,
       name: 'Rotation stop',
-      description: ''
+      description: '',
     },
     {
       id: 150,
       name: 'Not found log entry N',
-      description: ''
+      description: '',
     },
     {
       id: 255,
       name: 'Save all parameters',
-      description: ''
+      description: '',
     },
     {
       id: 256,
       name: 'Change value of A',
-      description: ''
+      description: '',
     },
     {
       id: 257,
       name: 'Change value of B',
-      description: ''
-    }
-  ]
+      description: '',
+    },
+  ],
 };
