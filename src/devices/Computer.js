@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  name: 'Computer mornitoring',
+  name: 'Computer monitoring',
   kind: 'Computer',
   numberParameters: 16,
   numberLogParameters: 16,
