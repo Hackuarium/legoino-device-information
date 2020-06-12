@@ -314,12 +314,12 @@ Object {
       "writable": true,
     },
     Object {
-      "description": "Number of step before changing direction. 1 tour = 200 steps",
+      "description": "Time in (s) for which the stepper stays on",
       "factor": 1,
       "label": "AB",
-      "name": "Stepper steps",
-      "unit": "",
-      "variable": "stepperSteps",
+      "name": "Stepper on delay",
+      "unit": "s",
+      "variable": "stepperOnDelay",
       "writable": true,
     },
     Object {

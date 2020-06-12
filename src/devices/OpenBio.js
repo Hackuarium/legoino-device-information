@@ -248,12 +248,11 @@ module.exports = {
 
     {
       label: 'AB',
-      variable: 'stepperSteps',
-      name: 'Stepper steps',
-      description:
-        'Number of step before changing direction. 1 tour = 200 steps',
+      variable: 'stepperOnDelay',
+      name: 'Stepper on delay',
+      description: 'Time in (s) for which the stepper stays on',
       factor: 1,
-      unit: '',
+      unit: 's',
       writable: true,
     },
 
