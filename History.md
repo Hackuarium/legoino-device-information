@@ -1,3 +1,7 @@
+## [0.1.5](https://github.com/Hackuarium/legoino-device-information/compare/v0.1.4...v0.1.5) (2020-06-15)
+
+
+
 ## [0.1.4](https://github.com/Hackuarium/legoino-device-information/compare/v0.1.3...v0.1.4) (2020-06-10)
 
 
