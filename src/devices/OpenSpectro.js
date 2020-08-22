@@ -14,7 +14,7 @@ module.exports = {
       description: 'which point of the linear detector is the maximum for red',
       factor: 1,
       unit: 'pixel#',
-      writable: false
+      writable: false,
     },
 
     {
@@ -24,7 +24,7 @@ module.exports = {
         'which point of the linear detector is the maximum for green',
       factor: 1,
       unit: 'pixel#',
-      writable: false
+      writable: false,
     },
 
     {
@@ -33,7 +33,7 @@ module.exports = {
       description: 'which point of the linear detector is the maximum for blue',
       factor: 1,
       unit: 'pixel#',
-      writable: false
+      writable: false,
     },
 
     {
@@ -42,7 +42,7 @@ module.exports = {
       description: '0 means no compression, can be set',
       factor: 1,
       unit: '',
-      writable: true
+      writable: true,
     },
     {
       label: 'E',
@@ -50,7 +50,7 @@ module.exports = {
       description: 'Red led intensity (0 to 255)',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -59,7 +59,7 @@ module.exports = {
       description: 'Green led intensity (0 to 255)',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
     {
       label: 'G',
@@ -67,7 +67,7 @@ module.exports = {
       description: 'Blue led intensity (0 to 255)',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -78,7 +78,7 @@ module.exports = {
       unit: '',
       min: 1,
       max: 64,
-      writable: true
+      writable: true,
     },
 
     {
@@ -87,7 +87,7 @@ module.exports = {
       description: 'Delay between experiments in seconds',
       factor: 1,
       unit: 's',
-      writable: false
+      writable: false,
     },
 
     {
@@ -96,7 +96,7 @@ module.exports = {
       description: 'Accumulation time in ms(in ms, good value=30)',
       factor: 1,
       unit: 'ms',
-      writable: true
+      writable: true,
     },
 
     {
@@ -105,7 +105,7 @@ module.exports = {
       description: 'Red maximum wavelength (nm)',
       factor: 1,
       unit: 'nm',
-      writable: false
+      writable: false,
     },
 
     {
@@ -114,7 +114,7 @@ module.exports = {
       description: 'Green maximum wavelength (nm)',
       factor: 1,
       unit: 'nm',
-      writable: false
+      writable: false,
     },
 
     {
@@ -123,7 +123,7 @@ module.exports = {
       description: 'Blue maximum wavelength (nm)',
       factor: 1,
       unit: 'nm',
-      writable: false
+      writable: false,
     },
 
     {
@@ -132,7 +132,7 @@ module.exports = {
       description: 'Set intensity of red led for test (0 -> 255)',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
     {
       label: 'V',
@@ -140,7 +140,7 @@ module.exports = {
       description: 'Set intensity of green led for test (0 -> 255)',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
     {
       label: 'W',
@@ -148,7 +148,7 @@ module.exports = {
       description: 'Set intensity of blue led for test (0 -> 255)',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
     {
       label: 'X',
@@ -156,13 +156,13 @@ module.exports = {
       description: 'Set intensity of white led for test (0 -> 255)',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
     {
-      label: 'Y'
+      label: 'Y',
     },
     {
-      label: 'Z'
+      label: 'Z',
     },
-  ]
+  ],
 };

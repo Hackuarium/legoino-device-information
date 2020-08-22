@@ -14,7 +14,7 @@ module.exports = {
       description: 'Frequency related to the energy of red led through sample',
       factor: 1,
       unit: 'Hz',
-      writable: false
+      writable: false,
     },
 
     {
@@ -24,7 +24,7 @@ module.exports = {
         'Frequency related to the energy of green led through sample',
       factor: 1,
       unit: 'Hz',
-      writable: false
+      writable: false,
     },
 
     {
@@ -33,7 +33,7 @@ module.exports = {
       description: 'Frequency related to the energy of blue led through sample',
       factor: 1,
       unit: 'Hz',
-      writable: false
+      writable: false,
     },
 
     {
@@ -43,7 +43,7 @@ module.exports = {
         'Frequency related to the energy of blue perpendicular led re-emitted by sample (fluorescence)',
       factor: 1,
       unit: 'Hz',
-      writable: false
+      writable: false,
     },
 
     {
@@ -52,7 +52,7 @@ module.exports = {
       description: 'Frequency related to the energy of red led through blank',
       factor: 1,
       unit: 'Hz',
-      writable: false
+      writable: false,
     },
 
     {
@@ -61,7 +61,7 @@ module.exports = {
       description: 'Frequency related to the energy of green led through blank',
       factor: 1,
       unit: 'Hz',
-      writable: false
+      writable: false,
     },
 
     {
@@ -70,7 +70,7 @@ module.exports = {
       description: 'Frequency related to the energy of blue led through blank',
       factor: 1,
       unit: 'Hz',
-      writable: false
+      writable: false,
     },
 
     {
@@ -80,7 +80,7 @@ module.exports = {
         'Frequency related to the energy of blue perpendicular led re-emitted by blank (fluorescence)',
       factor: 1,
       unit: 'Hz',
-      writable: false
+      writable: false,
     },
 
     {
@@ -89,7 +89,7 @@ module.exports = {
       description: 'Delay before the acquisition of the blank in seconds',
       factor: 1,
       unit: 's',
-      writable: true
+      writable: true,
     },
 
     {
@@ -98,7 +98,7 @@ module.exports = {
       description: 'Delay before the acquisition of the sample in seconds',
       factor: 1,
       unit: 's',
-      writable: true
+      writable: true,
     },
 
     {
@@ -108,7 +108,7 @@ module.exports = {
         'Delay between the acquisition of the experiments (kinetic) in seconds',
       factor: 1,
       unit: 's',
-      writable: true
+      writable: true,
     },
 
     {
@@ -118,7 +118,7 @@ module.exports = {
         'Number of experiments for kinetic (max 240 / (number colors + 1))',
       factor: 1,
       unit: '',
-      writable: true
+      writable: true,
     },
 
     {
@@ -127,7 +127,7 @@ module.exports = {
       description: 'Number of the next experiment',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -136,7 +136,7 @@ module.exports = {
       description: 'Current waiting time before next experiment',
       factor: 1,
       unit: 's',
-      writable: false
+      writable: false,
     },
 
     {
@@ -146,7 +146,7 @@ module.exports = {
         'Number of acquisitions of 100ms that will be taken (default 10). This value could be reduced for fast kinetic',
       factor: 1,
       unit: '',
-      writable: true
+      writable: true,
     },
 
     {
@@ -155,7 +155,7 @@ module.exports = {
       description: ' Invert the rotary button direction',
       factor: 1,
       unit: '',
-      writable: true
+      writable: true,
     },
 
     {
@@ -164,7 +164,7 @@ module.exports = {
       description: 'Current battery voltage',
       factor: 100,
       unit: 'V',
-      writable: true
+      writable: true,
     },
 
     {
@@ -173,7 +173,7 @@ module.exports = {
       description: 'Current temperature',
       factor: 100,
       unit: '°C',
-      writable: true
+      writable: true,
     },
 
     {
@@ -183,7 +183,7 @@ module.exports = {
         'Active leds and other. A number between 0 and 63. Each bit represents a function (Red, Green, Blue, UV, Voltage, Temperature). 5 would correspond to Red and Blue (binary combination).',
       factor: 1,
       unit: '',
-      writable: true
+      writable: true,
     },
 
     {
@@ -192,7 +192,7 @@ module.exports = {
       description: 'Error',
       factor: 1,
       unit: '',
-      writable: true
+      writable: true,
     },
 
     {
@@ -201,7 +201,7 @@ module.exports = {
       description: 'Value of the channel that will be displayed in the result',
       factor: 1,
       unit: '',
-      writable: true
+      writable: true,
     },
 
     {
@@ -210,7 +210,7 @@ module.exports = {
       description: 'Status',
       factor: 1,
       unit: '',
-      writable: true
+      writable: true,
     },
 
     {
@@ -219,7 +219,7 @@ module.exports = {
       description: 'Current menu',
       factor: 1,
       unit: '',
-      writable: true
-    }
-  ]
+      writable: true,
+    },
+  ],
 };

@@ -29,12 +29,13 @@
     "testEnvironment": "node"
   },
   "devDependencies": {
-    "cheminfo-publish": "^1.0.10",
-    "codecov": "^3.0.4",
-    "eslint": "^5.3.0",
-    "eslint-config-cheminfo": "^1.18.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^21.21.0",
-    "jest": "^23.5.0"
+    "cheminfo-publish": "^1.0.12",
+    "codecov": "^3.7.2",
+    "eslint": "^7.7.0",
+    "eslint-config-cheminfo": "^5.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "jest": "^26.4.2",
+    "prettier": "^2.0.5"
   }
 }

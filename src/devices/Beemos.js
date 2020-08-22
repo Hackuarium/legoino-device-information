@@ -16,7 +16,7 @@ module.exports = {
       description: 'External temperature',
       factor: 100,
       unit: '°C',
-      writable: false
+      writable: false,
     },
 
     {
@@ -26,7 +26,7 @@ module.exports = {
       description: 'External humidity',
       factor: 100,
       unit: '%',
-      writable: false
+      writable: false,
     },
 
     {
@@ -36,7 +36,7 @@ module.exports = {
       description: 'Luminosity (Arbitrary unit)',
       factor: 10.24,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -46,7 +46,7 @@ module.exports = {
       description: 'Press',
       factor: 10,
       unit: 'mbar',
-      writable: false
+      writable: false,
     },
 
     {
@@ -56,7 +56,7 @@ module.exports = {
       description: 'Internal temperature',
       factor: 100,
       unit: '°C',
-      writable: false
+      writable: false,
     },
 
     {
@@ -66,7 +66,7 @@ module.exports = {
       description: 'Internal humidity',
       factor: 100,
       unit: '%',
-      writable: false
+      writable: false,
     },
 
     {
@@ -76,7 +76,7 @@ module.exports = {
       description: 'Internal temperature A',
       factor: 100,
       unit: '°C',
-      writable: false
+      writable: false,
     },
     {
       label: 'H',
@@ -85,7 +85,7 @@ module.exports = {
       description: 'Internal temperature B',
       factor: 100,
       unit: '°C',
-      writable: false
+      writable: false,
     },
 
     {
@@ -95,7 +95,7 @@ module.exports = {
       description: 'Weight',
       factor: 100,
       unit: 'kg',
-      writable: false
+      writable: false,
     },
 
     {
@@ -105,7 +105,7 @@ module.exports = {
       description: 'Battery voltage',
       factor: 1000,
       unit: 'V',
-      writable: false
+      writable: false,
     },
 
     {
@@ -115,7 +115,7 @@ module.exports = {
       description: 'Number of input on gate 1',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -125,7 +125,7 @@ module.exports = {
       description: 'Number of output on gate 1',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -135,7 +135,7 @@ module.exports = {
       description: 'Number of input on gate 2',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -145,7 +145,7 @@ module.exports = {
       description: 'Number of output on gate 2',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -155,7 +155,7 @@ module.exports = {
       description: 'Number of input on gate 3',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -165,7 +165,7 @@ module.exports = {
       description: 'Number of output on gate 3',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -175,7 +175,7 @@ module.exports = {
       description: 'Number of input on gate 4',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -185,7 +185,7 @@ module.exports = {
       description: 'Number of output on gate 4',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -195,7 +195,7 @@ module.exports = {
       description: 'Number of input on gate 5',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -205,7 +205,7 @@ module.exports = {
       description: 'Number of output on gate 5',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -215,7 +215,7 @@ module.exports = {
       description: 'Number of input on gate 6',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -225,7 +225,7 @@ module.exports = {
       description: 'Number of output on gate 6',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -235,7 +235,7 @@ module.exports = {
       description: 'Number of input on gate 7',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -245,7 +245,7 @@ module.exports = {
       description: 'Number of output on gate 7',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -255,7 +255,7 @@ module.exports = {
       description: 'Number of input on gate 8',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -265,7 +265,7 @@ module.exports = {
       description: 'Number of output on gate 8',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -275,7 +275,7 @@ module.exports = {
       description: 'Weight in internal unit',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -285,7 +285,7 @@ module.exports = {
       description: 'Offset to convert weight from internal unit',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -295,7 +295,7 @@ module.exports = {
       description: 'Factor to convert the weight from internal unit',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -305,7 +305,7 @@ module.exports = {
       description: 'Indication showing if the battery is charging',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -315,7 +315,7 @@ module.exports = {
       description: 'Interval in seconds between logs',
       factor: 1,
       unit: 's',
-      writable: true
-    }
-  ]
+      writable: true,
+    },
+  ],
 };

@@ -15,7 +15,7 @@ module.exports = {
       description: '',
       factor: 1,
       unit: '°C',
-      writable: false
+      writable: false,
     },
 
     {
@@ -25,7 +25,7 @@ module.exports = {
       description: 'Free memory in percent',
       factor: 1,
       unit: '%',
-      writable: false
+      writable: false,
     },
 
     {
@@ -35,7 +35,7 @@ module.exports = {
       description: 'Free swap in percent',
       factor: 1,
       unit: '%',
-      writable: false
+      writable: false,
     },
 
     {
@@ -45,7 +45,7 @@ module.exports = {
       description: 'File system read in kb',
       factor: 1,
       unit: 'kb',
-      writable: false
+      writable: false,
     },
 
     {
@@ -55,7 +55,7 @@ module.exports = {
       description: 'File system read in kb',
       factor: 1,
       unit: 'kb',
-      writable: false
+      writable: false,
     },
 
     {
@@ -65,7 +65,7 @@ module.exports = {
       description: 'File system read in kb',
       factor: 1,
       unit: 'kb',
-      writable: false
+      writable: false,
     },
 
     {
@@ -75,7 +75,7 @@ module.exports = {
       description: 'File system read in kb',
       factor: 1,
       unit: 'kb',
-      writable: false
+      writable: false,
     },
 
     {
@@ -85,7 +85,7 @@ module.exports = {
       description: 'Total load',
       factor: 1,
       unit: '%',
-      writable: false
+      writable: false,
     },
 
     {
@@ -95,7 +95,7 @@ module.exports = {
       description: 'Load from user',
       factor: 1,
       unit: '%',
-      writable: false
+      writable: false,
     },
 
     {
@@ -105,7 +105,7 @@ module.exports = {
       description: 'Load from system',
       factor: 1,
       unit: '%',
-      writable: false
+      writable: false,
     },
 
     {
@@ -115,7 +115,7 @@ module.exports = {
       description: 'Load for Nice',
       factor: 1,
       unit: '%',
-      writable: false
+      writable: false,
     },
 
     {
@@ -125,7 +125,7 @@ module.exports = {
       description: 'Idle percent of time',
       factor: 1,
       unit: '%',
-      writable: false
+      writable: false,
     },
 
     {
@@ -135,7 +135,7 @@ module.exports = {
       description: 'Load due to IRQ',
       factor: 1,
       unit: '%',
-      writable: false
+      writable: false,
     },
 
     {
@@ -145,7 +145,7 @@ module.exports = {
       description: 'Minimal percent spaced used in a filesystem',
       factor: 1,
       unit: '%',
-      writable: false
+      writable: false,
     },
     {
       label: 'O',
@@ -154,10 +154,10 @@ module.exports = {
       description: 'Maximal percent spaced used in a filesystem',
       factor: 1,
       unit: '%',
-      writable: false
+      writable: false,
     },
     {
-      label: 'P'
+      label: 'P',
     },
-  ]
+  ],
 };

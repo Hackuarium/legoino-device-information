@@ -15,7 +15,7 @@ module.exports = {
       description: '',
       factor: 100,
       unit: '°C',
-      writable: false
+      writable: false,
     },
 
     {
@@ -24,7 +24,7 @@ module.exports = {
       description: '',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -33,7 +33,7 @@ module.exports = {
       description: '',
       factor: 1,
       unit: '',
-      writable: false
+      writable: false,
     },
 
     {
@@ -42,7 +42,7 @@ module.exports = {
       description: '',
       factor: 10,
       unit: '%',
-      writable: false
-    }
-  ]
+      writable: false,
+    },
+  ],
 };
