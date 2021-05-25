@@ -9,9 +9,8 @@
   "scripts": {
     "eslint": "eslint src",
     "eslint-fix": "npm run eslint -- --fix",
-    "test": "npm run testonly && npm run eslint",
-    "test-travis": "eslint src && jest --coverage && codecov",
-    "testonly": "jest",
+    "test": "npm run test-coverage && npm run eslint",
+    "test-coverage": "jest --coverage",
     "build": "cheminfo build"
   },
   "repository": {
