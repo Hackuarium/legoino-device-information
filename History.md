@@ -1,3 +1,18 @@
+## [1.1.0](https://github.com/Hackuarium/legoino-device-information/compare/v0.1.5...v1.1.0) (2021-06-26)
+
+
+### Features
+
+* add continuous integration ([bd4fcf9](https://github.com/Hackuarium/legoino-device-information/commit/bd4fcf9b39e9f0c6e894f18ffb064f8298e8d031))
+* add fromDeviceID ([a1eb51d](https://github.com/Hackuarium/legoino-device-information/commit/a1eb51d88a59547be4e524f3228cbd5ce4d9b82c))
+* add OpenBio6 ([465b2a3](https://github.com/Hackuarium/legoino-device-information/commit/465b2a36d25329cea59fcea2762d4a21ecc7bed7))
+* add test-coverage ([3eb6a01](https://github.com/Hackuarium/legoino-device-information/commit/3eb6a011c78a24d0646bd6e67770d397f5ef8ee4))
+
+
+### Bug Fixes
+
+* add id for Computer device ([da66560](https://github.com/Hackuarium/legoino-device-information/commit/da665609c82591e090b217202c0b6f1b97b151ef))
+
 ## [0.1.5](https://github.com/Hackuarium/legoino-device-information/compare/v0.1.4...v0.1.5) (2020-06-15)
 
 
