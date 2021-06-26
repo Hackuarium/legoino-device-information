@@ -1,3 +1,5 @@
+# Changelog
+
 ## [1.1.0](https://github.com/Hackuarium/legoino-device-information/compare/v0.1.5...v1.1.0) (2021-06-26)
 
 
