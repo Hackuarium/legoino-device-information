@@ -1,11 +1,11 @@
 # legoino-device-information
 
-  [![NPM version][npm-image]][npm-url]
-  [![build status][travis-image]][travis-url]
-  [![Test coverage][codecov-image]][codecov-url]
-  [![David deps][david-image]][david-url]
-  [![npm download][download-image]][download-url]
-  
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![Test coverage][codecov-image]][codecov-url]
+[![David deps][david-image]][david-url]
+[![npm download][download-image]][download-url]
+
 Device information for all our arduino derived projects
 
 ## Installation
@@ -19,6 +19,18 @@ Device information for all our arduino derived projects
 ```js
 const legoinoDeviceInformation = require('legoino-device-information');
 ```
+
+## Device ID
+
+Depending the first letter of the device ID we can guess what kind of device it is. All the devices are expected to have a unique ID.
+
+- `B`: Beemos device
+- `C`: Computer
+- `$`: OpenBio
+- `6`: OpenBio6
+- `S`: OpenSpectro
+- `T`: SimpleSpectro
+- `#`: Solar2015
 
 ## License
 
