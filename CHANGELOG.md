@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.1](https://www.github.com/Hackuarium/legoino-device-information/compare/v1.2.0...v1.2.1) (2021-06-26)
+
+
+### Bug Fixes
+
+* build script for lactame.com ([173a5ef](https://www.github.com/Hackuarium/legoino-device-information/commit/173a5efbae32520be8204e2edf3d9d87d920eb76))
+
 ## [1.2.0](https://www.github.com/Hackuarium/legoino-device-information/compare/v1.1.0...v1.2.0) (2021-06-26)
 
 
@@ -77,5 +84,3 @@
 
 <a name="0.0.2"></a>
 ## 0.0.2 (2018-08-16)
-
-
