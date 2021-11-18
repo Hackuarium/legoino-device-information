@@ -31,11 +31,11 @@
     "cheminfo-build": "^1.1.11",
     "cheminfo-publish": "^1.0.21",
     "codecov": "^3.8.2",
-    "eslint": "^7.29.0",
-    "eslint-config-cheminfo": "^5.2.4",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jest": "^24.3.6",
-    "jest": "^27.0.5",
-    "prettier": "^2.3.1"
+    "eslint": "^8.2.0",
+    "eslint-config-cheminfo": "^5.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.2.4",
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1"
   }
 }
