@@ -567,6 +567,13 @@ Object {
       "unit": "nm",
       "writable": false,
     },
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
+    undefined,
     Object {
       "description": "Set intensity of red led for test (0 -> 255)",
       "factor": 1,
@@ -650,6 +657,7 @@ Object {
       "unit": "Hz",
       "writable": false,
     },
+    undefined,
     Object {
       "description": "Frequency related to the energy of red led through blank",
       "factor": 1,
@@ -682,6 +690,7 @@ Object {
       "unit": "Hz",
       "writable": false,
     },
+    undefined,
     Object {
       "description": "Delay before the acquisition of the blank in seconds",
       "factor": 1,
@@ -762,6 +771,7 @@ Object {
       "unit": "°C",
       "writable": true,
     },
+    undefined,
     Object {
       "description": "Active leds and other. A number between 0 and 63. Each bit represents a function (Red, Green, Blue, UV, Voltage, Temperature). 5 would correspond to Red and Blue (binary combination).",
       "factor": 1,
@@ -1301,7 +1311,7 @@ Object {
     },
     Object {
       "description": "Step 8",
-      "label": "Bh",
+      "label": "BH",
       "name": "Step 8",
       "variable": "step08",
     },

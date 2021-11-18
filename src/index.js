@@ -1,13 +1,15 @@
 'use strict';
 
+const ensureAllParameters = require('./ensureAllParameters.js');
+
 let devices = {
-  OpenBio: require('./devices/OpenBio'),
-  OpenBio6: require('./devices/OpenBio6'),
-  OpenSpectro: require('./devices/OpenSpectro'),
-  SimpleSpectro: require('./devices/SimpleSpectro'),
-  Solar2015: require('./devices/Solar2015'),
-  Beemos: require('./devices/Beemos'),
-  Computer: require('./devices/Computer'),
+  OpenBio: ensureAllParameters(require('./devices/OpenBio')),
+  OpenBio6: ensureAllParameters(require('./devices/OpenBio6')),
+  OpenSpectro: ensureAllParameters(require('./devices/OpenSpectro')),
+  SimpleSpectro: ensureAllParameters(require('./devices/SimpleSpectro')),
+  Solar2015: ensureAllParameters(require('./devices/Solar2015')),
+  Beemos: ensureAllParameters(require('./devices/Beemos')),
+  Computer: ensureAllParameters(require('./devices/Computer')),
   fromDeviceID,
 };
 
@@ -31,7 +33,7 @@ function fromDeviceID(id) {
   const firstCharacter = id.substring(0, 1);
   for (let key in devices) {
     if (devices[key].id === firstCharacter) {
-      return devices[key];
+      return ensureAllParameters(devices[key]);
     }
   }
   return undefined;

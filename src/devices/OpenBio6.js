@@ -413,7 +413,7 @@ module.exports = {
     },
 
     {
-      label: 'Bh',
+      label: 'BH',
       variable: 'step08',
       name: 'Step 8',
       description: 'Step 8',
