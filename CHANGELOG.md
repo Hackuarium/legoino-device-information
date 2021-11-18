@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://www.github.com/Hackuarium/legoino-device-information/compare/v1.2.1...v2.0.0) (2021-11-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* Ensure parameter index corresponds to label
+
+### Features
+
+* Ensure parameter index corresponds to label ([cfe4181](https://www.github.com/Hackuarium/legoino-device-information/commit/cfe418104ebc42a84fb7d4d89d4ed1e41fb80949))
+
 ### [1.2.1](https://www.github.com/Hackuarium/legoino-device-information/compare/v1.2.0...v1.2.1) (2021-06-26)
 
 
