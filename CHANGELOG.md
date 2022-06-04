@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://www.github.com/Hackuarium/legoino-device-information/compare/v2.0.0...v2.1.0) (2022-06-04)
+
+
+### Features
+
+* redo beemos parameters ([6f6d397](https://www.github.com/Hackuarium/legoino-device-information/commit/6f6d3970191ea76cc9d87a5bb695196da1541f7a))
+
 ## [2.0.0](https://www.github.com/Hackuarium/legoino-device-information/compare/v1.2.1...v2.0.0) (2021-11-18)
 
 
