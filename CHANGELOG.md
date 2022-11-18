@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.2.0](https://www.github.com/Hackuarium/legoino-device-information/compare/v2.1.0...v2.2.0) (2022-11-18)
+
+
+### Features
+
+* pHMeter Device information ([cc14638](https://www.github.com/Hackuarium/legoino-device-information/commit/cc14638776e16b20f4ed01f2c9772efc7ddac731))
+
 ## [2.1.0](https://www.github.com/Hackuarium/legoino-device-information/compare/v2.0.0...v2.1.0) (2022-06-04)
 
 
