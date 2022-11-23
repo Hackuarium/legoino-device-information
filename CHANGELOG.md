@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.2.1](https://www.github.com/Hackuarium/legoino-device-information/compare/v2.2.0...v2.2.1) (2022-11-23)
+
+
+### Bug Fixes
+
+* redo Z parameter flags for OpenBio6 ([5659439](https://www.github.com/Hackuarium/legoino-device-information/commit/565943962118fd0128ac689bf2a4df5f5b73b07b))
+
 ## [2.2.0](https://www.github.com/Hackuarium/legoino-device-information/compare/v2.1.0...v2.2.0) (2022-11-18)
 
 
