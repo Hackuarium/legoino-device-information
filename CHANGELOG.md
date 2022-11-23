@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.2.2](https://www.github.com/Hackuarium/legoino-device-information/compare/v2.2.1...v2.2.2) (2022-11-23)
+
+
+### Bug Fixes
+
+* OpenBio6 & pHMeter Z parameter flags ([2d07bc3](https://www.github.com/Hackuarium/legoino-device-information/commit/2d07bc3b77b75a8381fa7c6ddfd201b964d1380b))
+
 ### [2.2.1](https://www.github.com/Hackuarium/legoino-device-information/compare/v2.2.0...v2.2.1) (2022-11-23)
 
 
