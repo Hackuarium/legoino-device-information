@@ -1,6 +1,6 @@
 {
   "name": "legoino-device-information",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Device information for all our arduino derived projects",
   "main": "./src/index.js",
   "files": [
