@@ -190,7 +190,7 @@ module.exports = {
       name: 'Status',
       description: `Status of the test, the bits of this integer code
         for the state of specific elements of the test (eg. PUMP ON/OFF, EC reading ON/OFF, etc.).
-        bits: 0: alkaline control, 1: acid control, 2: alkaline/acid aux. control, 3: alkaline/acid aux control, 4: EC reading, 5: EC calibration, 6: pH control, 7: pH calibration, 8: acid addition, 9: alkaline addition, 10: test probes`,
+        bits: 0: alkaline control, 1: acid control, 2: alkaline/acid aux. control 1, 3: alkaline/acid aux. control 2, 4: EC reading, 5: EC calibration, 6: pH control, 7: pH calibration, 8: acid addition, 9: alkaline addition, 10: test probes`,
       factor: 1,
       unit: '',
       writable: true,
