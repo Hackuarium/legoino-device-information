@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  name: 'PHMeter',
+  name: 'PH and conductivity meter',
   kind: 'PHMeter',
   description: 'PH and conductivity meter',
   url: 'https://github.com/Hackuarium/phmeter',
