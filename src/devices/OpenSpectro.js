@@ -127,6 +127,34 @@ module.exports = {
     },
 
     {
+      label: 'N',
+    },
+
+    {
+      label: 'O',
+    },
+
+    {
+      label: 'P',
+    },
+
+    {
+      label: 'Q',
+    },
+
+    {
+      label: 'R',
+    },
+
+    {
+      label: 'S',
+    },
+
+    {
+      label: 'T',
+    },
+
+    {
       label: 'U',
       name: 'red test',
       description: 'Set intensity of red led for test (0 -> 255)',
@@ -134,6 +162,7 @@ module.exports = {
       unit: '',
       writable: false,
     },
+
     {
       label: 'V',
       name: 'green test',
@@ -142,6 +171,7 @@ module.exports = {
       unit: '',
       writable: false,
     },
+
     {
       label: 'W',
       name: 'blue test',
@@ -150,6 +180,7 @@ module.exports = {
       unit: '',
       writable: false,
     },
+
     {
       label: 'X',
       name: 'white test',
@@ -158,9 +189,11 @@ module.exports = {
       unit: '',
       writable: false,
     },
+
     {
       label: 'Y',
     },
+    
     {
       label: 'Z',
     },
