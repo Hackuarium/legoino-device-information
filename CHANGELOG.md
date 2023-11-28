@@ -1,5 +1,12 @@
 # Changelog
 
+### [2.2.3](https://www.github.com/Hackuarium/legoino-device-information/compare/v2.2.2...v2.2.3) (2023-11-28)
+
+
+### Bug Fixes
+
+* Rename pHMeter.js to PHMeter.js ([25217ee](https://www.github.com/Hackuarium/legoino-device-information/commit/25217ee36a4031e56ffc7a988cf4882753db7d4a))
+
 ### [2.2.2](https://www.github.com/Hackuarium/legoino-device-information/compare/v2.2.1...v2.2.2) (2022-11-23)
 
 
