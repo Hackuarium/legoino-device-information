@@ -193,7 +193,7 @@ module.exports = {
     {
       label: 'Y',
     },
-    
+
     {
       label: 'Z',
     },
