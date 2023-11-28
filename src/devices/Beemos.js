@@ -154,6 +154,31 @@ module.exports = {
       unit: 'kg',
       writable: false,
     },
+
+    {
+      label: 'Q',
+    },
+
+    {
+      label: 'R',
+    },
+
+    {
+      label: 'S',
+    },
+
+    {
+      label: 'T',
+    },
+
+    {
+      label: 'U',
+    },
+
+    {
+      label: 'V',
+    },
+
     {
       label: 'W',
       variable: 'battery',
@@ -217,6 +242,34 @@ module.exports = {
       factor: 1,
       unit: '',
       writable: false,
+    },
+
+    {
+      label: 'AD',
+    },
+
+    {
+      label: 'AE',
+    },
+
+    {
+      label: 'AF',
+    },
+
+    {
+      label: 'AG',
+    },
+
+    {
+      label: 'AH',
+    },
+
+    {
+      label: 'AI',
+    },
+
+    {
+      label: 'AJ',
     },
 
     {

@@ -47,6 +47,10 @@ module.exports = {
     },
 
     {
+      label: 'E',
+    },
+
+    {
       label: 'F',
       name: 'Transmission of blank (Red)',
       description: 'Frequency related to the energy of red led through blank',
@@ -81,6 +85,10 @@ module.exports = {
       factor: 1,
       unit: 'Hz',
       writable: false,
+    },
+
+    {
+      label: 'J',
     },
 
     {
@@ -174,6 +182,10 @@ module.exports = {
       factor: 100,
       unit: '°C',
       writable: true,
+    },
+
+    {
+      label: 'U',
     },
 
     {

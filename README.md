@@ -31,6 +31,7 @@ Depending the first letter of the device ID we can guess what kind of device it 
 - `S`: OpenSpectro
 - `T`: SimpleSpectro
 - `#`: Solar2015
+- `P`: PHMeter
 
 ## License
 

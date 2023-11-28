@@ -10,6 +10,7 @@ let devices = {
   Solar2015: ensureAllParameters(require('./devices/Solar2015')),
   Beemos: ensureAllParameters(require('./devices/Beemos')),
   Computer: ensureAllParameters(require('./devices/Computer')),
+  PHMeter: ensureAllParameters(require('./devices/PHMeter')),
   fromDeviceID,
 };
 
